@@ -1,0 +1,17 @@
+[package]
+name = "tutorial3_pipeline"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winit.workspace = true
+env_logger.workspace = true
+log.workspace = true
+wgpu.workspace = true
+pollster.workspace = true
+
+[[bin]]
+name = "tutorial3-challenge"
+path = "src/challenge.rs"
