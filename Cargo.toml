@@ -1,7 +1,8 @@
 [workspace]
-members = ["tutorial1_window"]
+members = ["tutorial1_window", "tutorial2_surface"]
 [workspace.dependencies]
 winit = "0.28"
 env_logger = "0.10"
 log = "0.4"
 wgpu = "0.18"
+pollster = "0.3"
